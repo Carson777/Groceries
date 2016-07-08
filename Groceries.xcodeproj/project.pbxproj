@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		4332E9A81D2455520008DFFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9A71D2455520008DFFD /* main.m */; };
 		4332E9AB1D2455520008DFFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9AA1D2455520008DFFD /* AppDelegate.m */; };
-		4332E9AE1D2455520008DFFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9AD1D2455520008DFFD /* ViewController.m */; };
 		4332E9B11D2455520008DFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4332E9AF1D2455520008DFFD /* Main.storyboard */; };
 		4332E9B31D2455520008DFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4332E9B21D2455520008DFFD /* Assets.xcassets */; };
 		4332E9B61D2455520008DFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4332E9B41D2455520008DFFD /* LaunchScreen.storyboard */; };
+		4332E9BF1D24572A0008DFFD /* GroceryCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9BE1D24572A0008DFFD /* GroceryCategoryTableViewController.m */; };
+		4332E9C21D2463950008DFFD /* AddCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9C11D2463950008DFFD /* AddCategoriesViewController.m */; };
+		4332E9C51D257D990008DFFD /* GroceryCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9C41D257D990008DFFD /* GroceryCategory.m */; };
+		4332E9C81D2587480008DFFD /* GroceryItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9C71D2587480008DFFD /* GroceryItemsTableViewController.m */; };
+		4332E9CB1D2C49050008DFFD /* AddItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9CA1D2C49050008DFFD /* AddItemsViewController.m */; };
+		4332E9CE1D2EDADB0008DFFD /* GroceryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332E9CD1D2EDADB0008DFFD /* GroceryItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,22 @@
 		4332E9A71D2455520008DFFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4332E9A91D2455520008DFFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4332E9AA1D2455520008DFFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4332E9AC1D2455520008DFFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4332E9AD1D2455520008DFFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4332E9B01D2455520008DFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4332E9B21D2455520008DFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4332E9B51D2455520008DFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4332E9B71D2455520008DFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4332E9BD1D24572A0008DFFD /* GroceryCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryCategoryTableViewController.h; sourceTree = "<group>"; };
+		4332E9BE1D24572A0008DFFD /* GroceryCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryCategoryTableViewController.m; sourceTree = "<group>"; };
+		4332E9C01D2463950008DFFD /* AddCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoriesViewController.h; sourceTree = "<group>"; };
+		4332E9C11D2463950008DFFD /* AddCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoriesViewController.m; sourceTree = "<group>"; };
+		4332E9C31D257D990008DFFD /* GroceryCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryCategory.h; sourceTree = "<group>"; };
+		4332E9C41D257D990008DFFD /* GroceryCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryCategory.m; sourceTree = "<group>"; };
+		4332E9C61D2587480008DFFD /* GroceryItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryItemsTableViewController.h; sourceTree = "<group>"; };
+		4332E9C71D2587480008DFFD /* GroceryItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryItemsTableViewController.m; sourceTree = "<group>"; };
+		4332E9C91D2C49050008DFFD /* AddItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemsViewController.h; sourceTree = "<group>"; };
+		4332E9CA1D2C49050008DFFD /* AddItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemsViewController.m; sourceTree = "<group>"; };
+		4332E9CC1D2EDADB0008DFFD /* GroceryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryItem.h; sourceTree = "<group>"; };
+		4332E9CD1D2EDADB0008DFFD /* GroceryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +75,18 @@
 			children = (
 				4332E9A91D2455520008DFFD /* AppDelegate.h */,
 				4332E9AA1D2455520008DFFD /* AppDelegate.m */,
-				4332E9AC1D2455520008DFFD /* ViewController.h */,
-				4332E9AD1D2455520008DFFD /* ViewController.m */,
+				4332E9C01D2463950008DFFD /* AddCategoriesViewController.h */,
+				4332E9C11D2463950008DFFD /* AddCategoriesViewController.m */,
+				4332E9BD1D24572A0008DFFD /* GroceryCategoryTableViewController.h */,
+				4332E9BE1D24572A0008DFFD /* GroceryCategoryTableViewController.m */,
+				4332E9C31D257D990008DFFD /* GroceryCategory.h */,
+				4332E9C41D257D990008DFFD /* GroceryCategory.m */,
+				4332E9C61D2587480008DFFD /* GroceryItemsTableViewController.h */,
+				4332E9C71D2587480008DFFD /* GroceryItemsTableViewController.m */,
+				4332E9C91D2C49050008DFFD /* AddItemsViewController.h */,
+				4332E9CA1D2C49050008DFFD /* AddItemsViewController.m */,
+				4332E9CC1D2EDADB0008DFFD /* GroceryItem.h */,
+				4332E9CD1D2EDADB0008DFFD /* GroceryItem.m */,
 				4332E9AF1D2455520008DFFD /* Main.storyboard */,
 				4332E9B21D2455520008DFFD /* Assets.xcassets */,
 				4332E9B41D2455520008DFFD /* LaunchScreen.storyboard */,
@@ -149,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4332E9AE1D2455520008DFFD /* ViewController.m in Sources */,
 				4332E9AB1D2455520008DFFD /* AppDelegate.m in Sources */,
 				4332E9A81D2455520008DFFD /* main.m in Sources */,
+				4332E9CE1D2EDADB0008DFFD /* GroceryItem.m in Sources */,
+				4332E9CB1D2C49050008DFFD /* AddItemsViewController.m in Sources */,
+				4332E9C21D2463950008DFFD /* AddCategoriesViewController.m in Sources */,
+				4332E9BF1D24572A0008DFFD /* GroceryCategoryTableViewController.m in Sources */,
+				4332E9C81D2587480008DFFD /* GroceryItemsTableViewController.m in Sources */,
+				4332E9C51D257D990008DFFD /* GroceryCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
